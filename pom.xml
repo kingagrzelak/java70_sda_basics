@@ -7,6 +7,9 @@
     <groupId>org.example</groupId>
     <artifactId>training_sda_basics</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <maven.compiler.release>11</maven.compiler.release>
+    </properties>
     <build>
         <pluginManagement>
             <plugins>
