@@ -24,5 +24,5 @@ public class Engine {
     public Double getCapacity(){
         return this.capacity;
     }
-    
+
 }
