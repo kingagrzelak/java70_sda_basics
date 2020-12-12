@@ -57,5 +57,9 @@ public class Main {
         someVet.sayHello(cat2);
         someVet.sayHello(dog3);
 
+        System.out.println("Exercise 10");
+        someVet.universalSayHello(cat1);
+        someVet.universalSayHello(dog2);
+
     }
 }

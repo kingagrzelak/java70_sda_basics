@@ -3,27 +3,19 @@ package Java_Exercises_3_SDA;
 import lombok.Getter;
 import lombok.Setter;
 
-public class Cat implements AnimalSounds, Movable {
-    private String name;
+public class Cat extends AbstractAnimal implements AnimalSounds, Movable {
     private Integer miceCounter;
 
     public Cat(String name) {
-        this.name = name;
+        super(name);
         this.miceCounter = 0;
     }
 
     public Cat(String name, Integer miceCounter) {
-        this.name = name;
+        super(name);
         this.miceCounter = miceCounter;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return this.name;
-    }
 
     public void setMiceCounter(Integer miceCounter) {
         this.miceCounter = miceCounter;
