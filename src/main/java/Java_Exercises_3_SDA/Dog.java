@@ -7,6 +7,10 @@ public class Dog implements AnimalSounds {
         this.name = name;
     }
 
+    public String getName(){
+        return this.name;
+    }
+
     @Override
     public void makeSound() {
         System.out.println(name + " woff woff");
