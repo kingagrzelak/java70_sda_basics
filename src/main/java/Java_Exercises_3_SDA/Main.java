@@ -51,5 +51,9 @@ public class Main {
         System.out.println("Exercise 7");
         System.out.println(cat1.move());
         System.out.println(cat1);
+
+        System.out.println("Evercise 8");
+        Vet someVet = new Vet();
+        someVet.sayHello(cat2);
     }
 }
