@@ -22,5 +22,10 @@ public class Main {
 
         double result = AreaCounter.countArea(figures);
         System.out.println(result);
+
+
+        Double area = 300.0;
+         boolean isEnough = AreaCounter.checkArea(area, figures);
+        System.out.println("Feedback if the amount of pain is enough " + isEnough);
     }
 }
