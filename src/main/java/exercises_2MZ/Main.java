@@ -1,0 +1,10 @@
+package exercises_2MZ;
+
+import java.util.Date;
+
+public class Main {
+    public static void main(String[] args) {
+        DateConverter converter = new DateConverter();
+        converter.getDayName(4);
+    }
+}
